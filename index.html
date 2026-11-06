@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="林屿的个人作品集——产品设计师与创意开发者，专注于产品体验、品牌与数字设计。"
+    />
+    <meta name="theme-color" content="#f3efe7" />
+    <title>林屿 Lin Yu — Product Designer & Creative Developer</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23121212'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Arial' font-weight='700' font-size='20' fill='%23d8f474'%3ELY%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <div class="cursor" aria-hidden="true">
+      <span class="cursor__label">VIEW</span>
+    </div>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="林屿个人作品集首页">
+        <span class="brand__mark">LY</span>
+        <span class="brand__name">林屿<br /><small>Lin Yu</small></span>
+      </a>
+
+      <div class="availability">
+        <span class="availability__dot"></span>
+        <span>Available for select projects</span>
+      </div>
+
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#work">作品</a>
+        <a href="#about">关于</a>
+        <a href="#experience">经历</a>
+        <a href="#contact">联系</a>
+      </nav>
+
+      <a class="header-mail" href="mailto:hello@linyu.design">
+        <span>Let's talk</span>
+        <svg viewBox="0 0 20 20" aria-hidden="true">
+          <path d="M4 16 16 4M6 4h10v10" />
+        </svg>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" aria-hidden="true">
+      <nav aria-label="移动端导航">
+        <a href="#work"><span>01</span>作品</a>
+        <a href="#about"><span>02</span>关于</a>
+        <a href="#experience"><span>03</span>经历</a>
+        <a href="#contact"><span>04</span>联系</a>
+      </nav>
+      <a class="mobile-menu__mail" href="mailto:hello@linyu.design">hello@linyu.design</a>
+    </div>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__eyebrow reveal">
+          <span>Independent designer & developer</span>
+          <span>Hong Kong / Remote</span>
+        </div>
+
+        <div class="hero__grid">
+          <div class="hero__index reveal">01</div>
+          <div class="hero__heading">
+            <p class="hero__kicker reveal">Hi, I’m Lin Yu.</p>
+            <h1 id="hero-title">
+              <span class="hero__line reveal">I craft</span>
+              <span class="hero__line hero__line--outline reveal">digital</span>
+              <span class="hero__line reveal"
+                >experiences<span class="accent-dot">.</span></span
+              >
+            </h1>
+          </div>
+
+          <div class="hero__aside reveal">
+            <div class="hero__seal" aria-hidden="true">
+              <svg viewBox="0 0 140 140">
+                <defs>
+                  <path
+                    id="circlePath"
+                    d="M70,70 m-49,0 a49,49 0 1,1 98,0 a49,49 0 1,1 -98,0"
+                  />
+                </defs>
+                <text>
+                  <textPath href="#circlePath">
+                    PRODUCT DESIGN · CREATIVE CODE · BRAND ·
+                  </textPath>
+                </text>
+              </svg>
+              <span>✦</span>
+            </div>
+            <p>
+              我在策略、设计与代码之间工作，<br />
+              把复杂的想法变成清晰、独特、<br />
+              真正好用的数字产品。
+            </p>
+            <a href="#work" class="text-link">
+              浏览精选作品
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M4 10h12M11 5l5 5-5 5" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__ticker" aria-label="专业方向">
+          <div class="ticker__track">
+            <span>Product Design</span><i>✳</i>
+            <span>Creative Development</span><i>✳</i>
+            <span>Brand Systems</span><i>✳</i>
+            <span>Interaction Design</span><i>✳</i>
+            <span>Product Design</span><i>✳</i>
+            <span>Creative Development</span><i>✳</i>
+            <span>Brand Systems</span><i>✳</i>
+            <span>Interaction Design</span><i>✳</i>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section-pad" id="work" aria-labelledby="work-title">
+        <div class="section-head">
+          <div class="section-label reveal">
+            <span>02</span>
+            <span>Selected work</span>
+          </div>
+          <h2 id="work-title" class="reveal">
+            相信好设计，<br />
+            <em>应当被感知。</em>
+          </h2>
+          <p class="section-intro reveal">
+            横跨产品、品牌和互动体验。<br />
+            每一个项目，都从理解真实的人开始。
+          </p>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="按类别筛选作品">
+          <button class="filter is-active" type="button" data-filter="all">全部</button>
+          <button class="filter" type="button" data-filter="product">产品设计</button>
+          <button class="filter" type="button" data-filter="brand">品牌体验</button>
+          <button class="filter" type="button" data-filter="experimental">实验项目</button>
+          <span class="filters__count"><b>04</b> projects</span>
+        </div>
+
+        <div class="projects">
+          <article
+            class="project project--wide"
+            data-category="experimental"
+            data-project="echo"
+            tabindex="0"
+            role="button"
+            aria-label="查看 Echo 项目案例"
+          >
+            <div class="project__visual visual-echo" aria-hidden="true">
+              <span class="echo__caption">LISTEN / 08:42 PM</span>
+              <span class="echo__ring echo__ring--1"></span>
+              <span class="echo__ring echo__ring--2"></span>
+              <span class="echo__ring echo__ring--3"></span>
+              <span class="echo__ring echo__ring--4"></span>
+              <span class="echo__core">ECHO</span>
+              <span class="echo__coords">22.3193° N<br />114.1694° E</span>
+              <span class="echo__line"></span>
+            </div>
+            <div class="project__meta">
+              <div>
+                <span class="project__number">01 / 2026</span>
+                <h3>Echo</h3>
+              </div>
+              <p>让城市中那些被忽略的声音，成为可被看见的风景。</p>
+              <div class="project__tags">
+                <span>互动装置</span><span>数据可视化</span>
+              </div>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </article>
+
+          <article
+            class="project project--half"
+            data-category="product"
+            data-project="atelier"
+            tabindex="0"
+            role="button"
+            aria-label="查看 Atelier 24 项目案例"
+          >
+            <div class="project__visual visual-atelier" aria-hidden="true">
+              <div class="atelier__grid"></div>
+              <span class="atelier__scribble">a life<br />well made</span>
+              <span class="atelier__date">THU<br />24</span>
+              <div class="phone">
+                <div class="phone__bar"></div>
+                <p>Today</p>
+                <h4>Make room<br />for ideas.</h4>
+                <div class="phone__card">
+                  <span>10:30</span>
+                  <b>Flow state</b>
+                  <i></i>
+                </div>
+                <div class="phone__dots"><span></span><span></span><span></span></div>
+              </div>
+            </div>
+            <div class="project__meta">
+              <div>
+                <span class="project__number">02 / 2025</span>
+                <h3>Atelier 24</h3>
+              </div>
+              <p>为独立创作者打造的轻量日程与灵感工具。</p>
+              <div class="project__tags">
+                <span>移动产品</span><span>0 → 1</span>
+              </div>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </article>
+
+          <article
+            class="project project--half project--dark"
+            data-category="brand"
+            data-project="nori"
+            tabindex="0"
+            role="button"
+            aria-label="查看 Nori 项目案例"
+          >
+            <div class="project__visual visual-nori" aria-hidden="true">
+              <span class="nori__small">NORI® / FOOD WITH ORIGIN</span>
+              <div class="nori__pack nori__pack--back">
+                <span>海</span><small>SEA</small>
+              </div>
+              <div class="nori__pack nori__pack--front">
+                <span>NORI</span>
+                <small>一口好饭<br />从透明开始</small>
+                <i>100% TRACEABLE</i>
+              </div>
+              <span class="nori__stamp">GOOD<br />FOOD<br />CLUB</span>
+            </div>
+            <div class="project__meta">
+              <div>
+                <span class="project__number">03 / 2025</span>
+                <h3>Nori</h3>
+              </div>
+              <p>从品牌语言到数字体验，重新讲述一顿饭的来处。</p>
+              <div class="project__tags">
+                <span>品牌识别</span><span>数字体验</span>
+              </div>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </article>
+
+          <article
+            class="project project--wide project--lime"
+            data-category="product"
+            data-project="frame"
+            tabindex="0"
+            role="button"
+            aria-label="查看 Frame 项目案例"
+          >
+            <div class="project__visual visual-frame" aria-hidden="true">
+              <div class="frame__bar">
+                <span>FRAME</span>
+                <span>Issue 06</span>
+                <span>Index</span>
+              </div>
+              <div class="frame__tile frame__tile--one">
+                <small>01 / PROCESS</small>
+                <span>做少一点，<br />做深一点。</span>
+              </div>
+              <div class="frame__tile frame__tile--two">
+                <span class="frame__eye"></span>
+              </div>
+              <div class="frame__tile frame__tile--three">
+                <small>FRAME / NOTES</small>
+                <b>DESIGN<br />IN<br />MOTION</b>
+              </div>
+            </div>
+            <div class="project__meta">
+              <div>
+                <span class="project__number">04 / 2024</span>
+                <h3>Frame</h3>
+              </div>
+              <p>一个让设计与创意过程被完整看见的编辑平台。</p>
+              <div class="project__tags">
+                <span>编辑设计</span><span>内容系统</span>
+              </div>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about" aria-labelledby="about-title">
+        <div class="section-label reveal">
+          <span>03</span>
+          <span>About me</span>
+        </div>
+
+        <div class="about__top">
+          <h2 id="about-title" class="reveal">
+            设计对我来说，<br />
+            是一场持续的<span class="scribble-word">好奇。</span>
+          </h2>
+          <div class="about__portrait reveal" aria-label="林屿的抽象肖像">
+            <div class="portrait__shape"></div>
+            <div class="portrait__type">DESIGN<br />WITH<br />CARE</div>
+            <span class="portrait__tag">LIN YU<br />EST. 1997</span>
+          </div>
+        </div>
+
+        <div class="about__bottom">
+          <div class="about__lead reveal">
+            <p>
+              你好，我是林屿，一名产品设计师和创意开发者。过去
+              <strong>6 年</strong>，我与科技公司、文化机构和独立品牌合作，把模糊的问题变成清晰、有记忆点的体验。
+            </p>
+          </div>
+          <div class="about__copy reveal">
+            <p>
+              从用户研究、产品策略到界面与原型，我关注策略和细节之间的关系。我也写代码，这让我能更早验证想法，并保留设计中最有价值的部分。
+            </p>
+            <p>
+              工作之外，我喜欢拍下城市里奇怪的招牌、收集旧杂志，以及研究一碗面为什么好吃。
+            </p>
+            <a href="mailto:hello@linyu.design" class="text-link">
+              下载个人简历
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M10 3v12M5 10l5 5 5-5" />
+              </svg>
+            </a>
+          </div>
+          <div class="about__facts reveal">
+            <div><b>06+</b><span>Years<br />of practice</span></div>
+            <div><b>28</b><span>Products<br />shipped</span></div>
+            <div><b>09</b><span>Design<br />awards</span></div>
+          </div>
+        </div>
+
+        <div class="principles">
+          <article class="principle reveal">
+            <span class="principle__no">01</span>
+            <h3>从问题出发</h3>
+            <p>好问题比漂亮的答案更重要。先理解真实情境，再决定做什么。</p>
+            <span class="principle__icon">?</span>
+          </article>
+          <article class="principle reveal">
+            <span class="principle__no">02</span>
+            <h3>在细节里生长</h3>
+            <p>节奏、动效、文案与留白，共同构成一个产品的性格。</p>
+            <span class="principle__icon">✦</span>
+          </article>
+          <article class="principle reveal">
+            <span class="principle__no">03</span>
+            <h3>和团队一起赢</h3>
+            <p>最好的作品往往来自坦诚、快速、跨专业的协作。</p>
+            <span class="principle__icon">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience section-pad" id="experience" aria-labelledby="experience-title">
+        <div class="section-head section-head--compact">
+          <div class="section-label reveal">
+            <span>04</span>
+            <span>Experience</span>
+          </div>
+          <h2 id="experience-title" class="reveal">Where I’ve been.</h2>
+        </div>
+
+        <div class="experience__list">
+          <div class="experience__row reveal">
+            <span class="experience__year">2023—NOW</span>
+            <div class="experience__role">
+              <h3>Independent</h3>
+              <span>Product Designer & Creative Developer</span>
+            </div>
+            <span class="experience__place">Hong Kong / Remote</span>
+            <span class="experience__mark">↗</span>
+          </div>
+          <div class="experience__row reveal">
+            <span class="experience__year">2020—2023</span>
+            <div class="experience__role">
+              <h3>North Studio</h3>
+              <span>Senior Product Designer</span>
+            </div>
+            <span class="experience__place">Shanghai</span>
+            <span class="experience__mark">↗</span>
+          </div>
+          <div class="experience__row reveal">
+            <span class="experience__year">2018—2020</span>
+            <div class="experience__role">
+              <h3>Field Notes</h3>
+              <span>Interaction Designer</span>
+            </div>
+            <span class="experience__place">Shenzhen</span>
+            <span class="experience__mark">↗</span>
+          </div>
+        </div>
+
+        <div class="recognitions reveal">
+          <span class="recognitions__title">Selected recognition</span>
+          <div class="recognitions__logos">
+            <span>Awwwards</span>
+            <span>CSSDA</span>
+            <span>FWA</span>
+            <span>Communication Arts</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="contact__top reveal">
+          <span>Have a project in mind?</span>
+          <span>Let's make something matter.</span>
+        </div>
+        <h2 id="contact-title" class="reveal">
+          一起做点<br />
+          <span>有意思的。</span>
+        </h2>
+        <a class="contact__button reveal" href="mailto:hello@linyu.design">
+          <span>hello@linyu.design</span>
+          <i>↗</i>
+        </a>
+
+        <div class="contact__meta reveal">
+          <span>© 2026 LIN YU. ALL RIGHTS RESERVED.</span>
+          <span>HONG KONG · UTC+8</span>
+          <div class="contact__socials">
+            <a href="#top">Instagram</a>
+            <a href="#top">Behance</a>
+            <a href="#top">LinkedIn</a>
+          </div>
+          <a class="back-top" href="#top">BACK TO TOP ↑</a>
+        </div>
+      </section>
+    </main>
+
+    <div class="project-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal__backdrop" data-close-modal></div>
+      <div class="modal__panel">
+        <button class="modal__close" type="button" aria-label="关闭项目案例" data-close-modal>
+          <span></span><span></span>
+        </button>
+        <div class="modal__visual"></div>
+        <div class="modal__content">
+          <div class="modal__eyebrow">
+            <span class="modal__category"></span>
+            <span class="modal__year"></span>
+          </div>
+          <h2 id="modal-title"></h2>
+          <p class="modal__description"></p>
+          <div class="modal__facts">
+            <div><span>Role</span><b class="modal__role"></b></div>
+            <div><span>Focus</span><b class="modal__focus"></b></div>
+            <div><span>Outcome</span><b class="modal__outcome"></b></div>
+          </div>
+          <p class="modal__note">完整案例正在整理中。如果你对这个项目感兴趣，欢迎来信聊聊。</p>
+          <a class="text-link" href="mailto:hello@linyu.design">
+            讨论类似项目
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M4 10h12M11 5l5 5-5 5" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
