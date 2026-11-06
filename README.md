@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-林屿的个人作品集网站，使用原生 HTML、CSS 和 JavaScript 构建。
+袁亮的个人作品集网站，使用原生 HTML、CSS 和 JavaScript 构建。
 
 公开站点：https://wguidhjs.github.io/portfolio/
 
